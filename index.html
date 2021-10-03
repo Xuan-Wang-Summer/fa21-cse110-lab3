@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Xuan Wang's Meeting Minutes</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    </head>
+    <body>
+        <header>
+            <h1>Xuan Wang's Meeting Minutes</h1>
+        </header>
+        <header>
+            <h2>October 3rd 2021</h2>
+        </header>
+        <nav>
+            <div class="agenda">
+                <li><a href="#attendance"><span class="tasks">Attendance</span></a></li>
+                <li><a href="#updates"><span class="tasks">Updates</span></a></li>
+                <li><a href="#plans"><span class="tasks">Plans</span></a></li>
+                <li><a href="#wrapup"><span class="tasks">Wrapping-Up</span></a></li>
+                <li><a href="#contactus"><span class="tasks">Contact</span></a></li>
+            </div>            
+        </nav>
+        <hr>
+        <main>
+            Take a look at today's view to relax before meeting start!<br>
+            <img src="sunset.jpg" alt="view" width="300">
+        </main>
+        <section>
+            <h2 id="attendance">Attendance</h2>
+            <ul>
+                <li>Mike Zhang</li>
+                <li>Lucy Williams</li>
+                <li>Kate Brown</li>
+                <li>John Gracia	</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="updates">Updates</h2>
+            <main>
+                <p>For the past week, everyone have done execellent jobs in learning <b class="term">HTML</b>!
+                <strong>Congratulation to everyone!</strong></p>
+                <details>
+                    <summary>Details</summary>
+                    <p>Mike Zhang reported that he had difficulties to get start with <b class="term">HTML</b>. Thus, he 
+                        reached out to Kate Brown and they did a group study together. Lucy Williams failed to use images in her <b class="term">HTML</b> 
+                        at the very beginning. But she googled and found that the problem was caused by wrong destination path. Luckily, John Gracia had
+                    rich past experience in <b class="term">HTML</b> so that things moved smooth for him.</p>
+                </details>
+            </main>
+        </section>
+        <section>
+            <h2 id="plans">Plans</h2>
+            <main>
+                <p><em>For next week, </em>we have the following plans:</p>
+                <ol>
+                    <li>Mike Zhang: Watch the file <i class="movie">Titanic </i> and make a <b class="term">HTML</b> page to introduce it.</li>
+                    <li>Lucy Williams: Read the novel <i class="book">One Hundred Year of Solitude</i> and make a <b class="term">HTML</b> page to reflect.</li> 
+                    <li>Kate Brown: Learn about <b class="term">CSS</b>.</li>
+                    <li>John Gracia: Take a week off.</li>
+                </ol>
+            </main>
+        </section>
+        <section>
+            <h2 id="wrapup">Wrapping-Up</h2>
+            <audio controls>
+                <source src="record.m4a" type="audio/mp4">
+            </audio>
+            <br>
+            <video width="320" height="240" controls>
+                <source src="record.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <h2 id="contactus">Contact</h2>
+            <p>Feel free to leave your info hear if you want to contact us. We will reach back in 3 business days.</p>
+            <form>
+                <fieldset>
+                    <h4> Your personal Info </h4>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                    <hr>
+                    <label for="yourself">Tell us about you:</label>
+                    <br>
+                    <textarea id="yourself" name="yourself" rows="5" cols="100">
+                    </textarea>
+                    <br>
+                    <br>
+                    <label for="season">What seasons do you like?</label>
+                    <br>
+                    <div>
+                        <input type="checkbox" id="spring" name="spring">
+                        <label for="spring">Spring</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="summer" name="summer">
+                        <label for="spring">Summer</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="fall" name="fall">
+                        <label for="spring">Fall</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="winter" name="winter">
+                        <label for="spring">Winter</label>
+                    </div>
+                    <br>
+                    <label for="prefer"><i class="movie">Titanic</i> or <i class="book">One Hundred Year of Solitude</i></label>
+                    <div>
+                        <input type="radio" id="titanic" name="prefer" value="titanic">
+                        <label for="huey"><i class="movie">Titanic</i></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="ohys" name="prefer" value="ohys">
+                        <label for="huey"><i class="book">One Hundred Year of Solitude</i></label>
+                    </div>
+                    <hr>
+                    <label for="ways">How did you know us?</label>
+                    <br>
+                    <input list="Howtoknow" id="ways" name="Howtoknow">
+                    <datalist id="Howtoknow">
+                        <option value="Friend's recommendation"></option>
+                        <option value="Online"></option>
+                        <option value="Others"></option>
+                    </datalist>
+                    <br>
+                    <br>
+                    <label for="when">When did you see this note?</label>
+                    <br>
+                    <input type="date" id="when" name="Whendidyousee"
+                    value="2021-10-03" min="2021-10-03" max="2021-12-31">
+                    <br>
+                    <br>
+                    <label for="rate">How do you like the notes? From 0 to 5, select a rate for our notes.</label>
+                    <br>
+                    <select name="rating" id="rate">
+                        <option value="">--Please choose an option--</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <hr>
+                    <button type="button" >Submit</button>
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <h3>Copyright Xuan Wang 2021</h3>
+        </footer>
+    </body>
+</html>
