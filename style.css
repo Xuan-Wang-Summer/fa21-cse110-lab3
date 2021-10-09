@@ -1,0 +1,42 @@
+/*Set colors and style for background and titles.*/
+.term{
+    color:#8A2BE2
+}
+#wrapup {
+    border: red 2px solid;
+}
+* {
+    background-color: rgb(173, 216, 230);
+}
+a[href^="#"] {
+    color: DarkGreen;
+}
+h1 {
+    color: DarkCyan;
+}
+img:hover {
+    border-color: yellow;
+    border-width: 1vw;
+    border-style: solid;
+}
+h2, h3, h4, h5, h6 { 
+    color: DarkSlateGray; 
+}
+form h4{
+    color: Navy;
+}
+fieldset > input {
+    background-color: DodgerBlue;
+}
+hr + footer {
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+}
+label ~ textarea {
+    background-color: hsl(200, 90%, 90%);
+    color: #F5FFFA;
+}
+a.block {
+    color: red
+}
