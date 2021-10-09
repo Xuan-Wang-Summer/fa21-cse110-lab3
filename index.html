@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8" />
         <title>Xuan Wang's Meeting Minutes</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico"/>
@@ -78,14 +79,11 @@
                     <label for="email">Email:</label>
                     <input type="text" id="email" name="email">
                     <hr>
-                    <label for="yourself">Tell us about you:</label>
-                    <br>
+                    <label for="yourself"><h4>Tell us about you:</h4></label>
                     <textarea id="yourself" name="yourself" rows="5" cols="100">
                     </textarea>
                     <br>
-                    <br>
                     <h4>What seasons do you like?</h4>
-                    <br>
                     <div>
                         <input type="checkbox" id="spring" name="spring">
                         <label for="spring">Spring</label>
@@ -102,7 +100,6 @@
                         <input type="checkbox" id="winter" name="winter">
                         <label for="spring">Winter</label>
                     </div>
-                    <br>
                     <h4><i class="movie">Titanic</i> or <i class="book">One Hundred Year of Solitude</i></h4>
                     <div>
                         <input type="radio" id="titanic" name="prefer" value="titanic">
@@ -113,8 +110,7 @@
                         <label for="ohys"><i class="book">One Hundred Year of Solitude</i></label>
                     </div>
                     <hr>
-                    <label for="ways">How did you know us?</label>
-                    <br>
+                    <label for="ways"><h4>How did you know us?</h4></label>
                     <input list="Howtoknow" id="ways" name="Howtoknow">
                     <datalist id="Howtoknow">
                         <option value="Friend's recommendation"></option>
@@ -122,15 +118,11 @@
                         <option value="Others"></option>
                     </datalist>
                     <br>
-                    <br>
-                    <label for="when">When did you see this note?</label>
-                    <br>
+                    <label for="when"><h4>When did you see this note?</h4></label>
                     <input type="date" id="when" name="Whendidyousee"
                     value="2021-10-03" min="2021-10-03" max="2021-12-31">
                     <br>
-                    <br>
-                    <label for="rate">How do you like the notes? From 0 to 5, select a rate for our notes.</label>
-                    <br>
+                    <label for="rate"><h4>How do you like the notes? From 0 to 5, select a rate for our notes.</h4></label>
                     <select name="rating" id="rate">
                         <option value="">--Please choose an option--</option>
                         <option value="0">0</option>
@@ -145,6 +137,7 @@
                 </fieldset>
             </form>
         </section>
+        <hr>
         <footer>
             <h3>Copyright Xuan Wang 2021</h3>
         </footer>
